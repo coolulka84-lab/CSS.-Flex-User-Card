@@ -4,4 +4,19 @@
 
 body {
     padding: 15px;
+    display: flex;
+    
 }
+.userCard {}
+
+.editBtn {}
+
+.userImg {}
+
+.memberSection {}
+
+.cardFooter {}
+
+.sosialLinks {}
+
+.sosialLinkItem {}
