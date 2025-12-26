@@ -1,22 +1,60 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 17px;
 }
 
 body {
-    padding: 15px;
-    display: flex;
+  padding: 15px;
+  display: flex;
+  background-color: rgb(198, 240, 241);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.userCard {
+  background: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editBtn {
+  align-self: flex-end;
+}
+
+.userImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -20px;
+}
+.userDescription {
+  text-align: center;
+}
+
+.statistics {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.sosialLinks {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cardFooter {
+}
+
+.sosialLinkItem {
+}
+
+.profile {
     
 }
-.userCard {}
-
-.editBtn {}
-
-.userImg {}
-
-.memberSection {}
-
-.cardFooter {}
-
-.sosialLinks {}
-
-.sosialLinkItem {}
